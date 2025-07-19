@@ -11,17 +11,17 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm py-3">
     <div class="container">
-      <a class="navbar-brand fw-bold text-primary">Cristian Muñoz - Desarrollador Fullstack</a>
+      <a class="navbar-brand fw-bold text-white">Cristian Muñoz - Desarrollador Fullstack</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="./Servicios.html">Servicios</a></li>
-          <li class="nav-item"><a class="nav-link" href="./">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="./index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="./educacion.html">Educación</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="./experiencia.html">Experiencia</a></li>
         </ul>
       </div>
     </div>
@@ -30,12 +30,33 @@
   <main class="contenido container py-5">
     <div class="row align-items-center">
       <div class="col-md-6">
-
         <div class="foto-perfil"></div>
       </div>
       <div class="col-md-6">
-        <h2>Hola, soy Cristian Muñoz</h2>
-        <p>Egresado de Analista Programador, con una sólida base en SQL 💻 y Python 🐍. A lo largo de mi carrera he tenido la oportunidad de trabajar en entornos colaborativos 🤝, lo que me ha permitido desarrollar habilidades en trabajo en equipo y comunicación efectiva. En la universidad 🎓, me formé en metodologías ágiles como Scrum 📈, así como en Ingeniería de Software ⚙️ y Testeo 🧪, lo que me ha dado una visión integral de los procesos de desarrollo. He trabajado con diversas tecnologías como Django 🐍, HTML, CSS, Git y Kotlin 📱, lo que me ha permitido ampliar mis habilidades en desarrollo web, control de versiones y programación móvil. Además, poseo experiencia en el uso de Excel 📊, lo que me ha permitido trabajar con análisis de datos y crear soluciones eficaces para la toma de decisiones. También tengo un nivel intermedio de inglés (B2) 🗣️, lo que me permite comunicarme de manera efectiva en entornos internacionales. A nivel de herramientas de visualización, tengo conocimientos en Power BI 📊, lo que me permite crear informes interactivos y visualizaciones de datos para facilitar la interpretación y presentación de resultados. Actualmente, me encuentro en un proceso de aprendizaje continuo 📚, profundizando en automatización con Python 🔄 y expandiendo mis conocimientos en Cloud Computing con AWS ☁️. Además, estoy realizando un curso de desarrollo Fullstack en Desafío Latam, enfocado en React, Node y Express 💻. Mi objetivo es seguir perfeccionando mis habilidades técnicas y aprender nuevas herramientas para optimizar procesos y crear soluciones eficientes que contribuyan al éxito de cualquier equipo o proyecto 🚀. Estoy siempre en busca de nuevos desafíos y oportunidades para seguir creciendo como profesional y aportar valor a través de la tecnología 💡.</p>
+        <h2>Hola soy Cristian Muñoz</h2>
+        <p>
+          Egresado de Analista Programador, con una sólida base en SQL 💻 y Python 🐍. A lo largo de mi carrera he tenido la oportunidad de trabajar en entornos colaborativos 🤝, lo que me ha permitido desarrollar habilidades en trabajo en equipo y comunicación efectiva. En la universidad 🎓, me formé en metodologías ágiles como Scrum 📈, así como en Ingeniería de Software ⚙️ y Testeo 🧪, lo que me ha dado una visión integral de los procesos de desarrollo. He trabajado con diversas tecnologías como Django 🐍, HTML, CSS, Git y Kotlin 📱, lo que me ha permitido ampliar mis habilidades en desarrollo web, control de versiones y programación móvil. Además, poseo experiencia en el uso de Excel 📊, lo que me ha permitido trabajar con análisis de datos y crear soluciones eficaces para la toma de decisiones. También tengo un nivel intermedio de inglés (B2) 🗣️, lo que me permite comunicarme de manera efectiva en entornos internacionales. A nivel de herramientas de visualización, tengo conocimientos en Power BI 📊, lo que me permite crear informes interactivos y visualizaciones de datos para facilitar la interpretación y presentación de resultados. Actualmente, me encuentro en un proceso de aprendizaje continuo 📚, profundizando en automatización con Python 🔄 y expandiendo mis conocimientos en Cloud Computing con AWS ☁️. Además, estoy realizando un curso de desarrollo Fullstack en Desafío Latam, enfocado en React, Node y Express 💻. Mi objetivo es seguir perfeccionando mis habilidades técnicas y aprender nuevas herramientas para optimizar procesos y crear soluciones eficientes que contribuyan al éxito de cualquier equipo o proyecto 🚀. Estoy siempre en busca de nuevos desafíos y oportunidades para seguir creciendo como profesional y aportar valor a través de la tecnología 💡.
+        </p>
+
+        <hr class="my-4">
+
+        <h4>Contáctame</h4>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
       </div>
     </div>
   </main>
